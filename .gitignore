@@ -1,0 +1,335 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+.idea/
+checkpoints
+logs_sample
+logs_train
+samples
+data
+evaluation/orca/
+evaluation/orca/tmp-0.1138.txt
+evaluation/orca/tmp-0.1177.txt
+evaluation/orca/tmp-0.1151.txt
+evaluation/orca/tmp-0.1132.txt
+evaluation/orca/tmp-0.1129.txt
+evaluation/orca/tmp-0.1125.txt
+evaluation/orca/tmp-0.1102.txt
+evaluation/orca/tmp-0.1081.txt
+evaluation/orca/tmp-0.1065.txt
+evaluation/orca/tmp-0.1032.txt
+evaluation/orca/tmp-0.1026.txt
+evaluation/orca/tmp-0.0966.txt
+evaluation/orca/tmp-0.0952.txt
+evaluation/orca/tmp-0.0949.txt
+evaluation/orca/tmp-0.0945.txt
+evaluation/orca/tmp-0.0941.txt
+evaluation/orca/tmp-0.0918.txt
+evaluation/orca/tmp-0.0910.txt
+evaluation/orca/tmp-0.1388.txt
+evaluation/orca/tmp-0.1416.txt
+evaluation/orca/tmp-0.1426.txt
+evaluation/orca/tmp-0.1441.txt
+evaluation/orca/tmp-0.1453.txt
+evaluation/orca/tmp-0.1455.txt
+evaluation/orca/tmp-0.1457.txt
+evaluation/orca/tmp-0.1497.txt
+evaluation/orca/tmp-0.1509.txt
+evaluation/orca/tmp-0.1564.txt
+evaluation/orca/tmp-0.1575.txt
+evaluation/orca/tmp-0.1589.txt
+evaluation/orca/tmp-0.1602.txt
+evaluation/orca/tmp-0.1596.txt
+evaluation/orca/tmp-0.1623.txt
+evaluation/orca/tmp-0.1633.txt
+evaluation/orca/tmp-0.1635.txt
+evaluation/orca/tmp-0.1649.txt
+evaluation/orca/tmp-0.1660.txt
+evaluation/orca/tmp-0.1664.txt
+evaluation/orca/tmp-0.1694.txt
+evaluation/orca/tmp-0.1712.txt
+evaluation/orca/tmp-0.1727.txt
+evaluation/orca/tmp-0.1780.txt
+evaluation/orca/tmp-0.2222.txt
+evaluation/orca/tmp-0.2197.txt
+evaluation/orca/tmp-0.2192.txt
+evaluation/orca/tmp-0.2173.txt
+evaluation/orca/tmp-0.2167.txt
+evaluation/orca/tmp-0.2155.txt
+evaluation/orca/tmp-0.2100.txt
+evaluation/orca/tmp-0.2095.txt
+evaluation/orca/tmp-0.2088.txt
+evaluation/orca/tmp-0.2087.txt
+evaluation/orca/tmp-0.2061.txt
+evaluation/orca/tmp-0.2050.txt
+evaluation/orca/tmp-0.2048.txt
+evaluation/orca/tmp-0.2014.txt
+evaluation/orca/tmp-0.2001.txt
+evaluation/orca/tmp-0.1965.txt
+evaluation/orca/tmp-0.1927.txt
+evaluation/orca/tmp-0.1917.txt
+evaluation/orca/tmp-0.1903.txt
+evaluation/orca/tmp-0.1902.txt
+evaluation/orca/tmp-0.1847.txt
+evaluation/orca/tmp-0.1829.txt
+evaluation/orca/tmp-0.1809.txt
+evaluation/orca/tmp-0.1785.txt
+evaluation/orca/tmp-0.2243.txt
+evaluation/orca/tmp-0.2286.txt
+evaluation/orca/tmp-0.2350.txt
+evaluation/orca/tmp-0.2376.txt
+evaluation/orca/tmp-0.2389.txt
+evaluation/orca/tmp-0.2405.txt
+evaluation/orca/tmp-0.2419.txt
+evaluation/orca/tmp-0.2455.txt
+evaluation/orca/tmp-0.2466.txt
+evaluation/orca/tmp-0.2500.txt
+evaluation/orca/tmp-0.2502.txt
+evaluation/orca/tmp-0.2598.txt
+evaluation/orca/tmp-0.2524.txt
+evaluation/orca/tmp-0.2620.txt
+evaluation/orca/tmp-0.2725.txt
+evaluation/orca/tmp-0.2672.txt
+evaluation/orca/tmp-0.2726.txt
+evaluation/orca/tmp-0.2742.txt
+evaluation/orca/tmp-0.2740.txt
+evaluation/orca/tmp-0.2747.txt
+evaluation/orca/tmp-0.2765.txt
+evaluation/orca/tmp-0.2795.txt
+evaluation/orca/tmp-0.2782.txt
+evaluation/orca/tmp-0.2819.txt
+evaluation/orca/tmp-0.3321.txt
+evaluation/orca/tmp-0.3317.txt
+evaluation/orca/tmp-0.3303.txt
+evaluation/orca/tmp-0.3296.txt
+evaluation/orca/tmp-0.3280.txt
+evaluation/orca/tmp-0.3278.txt
+evaluation/orca/tmp-0.3259.txt
+evaluation/orca/tmp-0.3215.txt
+evaluation/orca/tmp-0.3194.txt
+evaluation/orca/tmp-0.3191.txt
+evaluation/orca/tmp-0.3189.txt
+evaluation/orca/tmp-0.3174.txt
+evaluation/orca/tmp-0.3169.txt
+evaluation/orca/tmp-0.3158.txt
+evaluation/orca/tmp-0.3148.txt
+evaluation/orca/tmp-0.3125.txt
+evaluation/orca/tmp-0.3098.txt
+evaluation/orca/tmp-0.3034.txt
+evaluation/orca/tmp-0.2998.txt
+evaluation/orca/tmp-0.2988.txt
+evaluation/orca/tmp-0.2982.txt
+evaluation/orca/tmp-0.3014.txt
+evaluation/orca/tmp-0.3029.txt
+evaluation/orca/tmp-0.3092.txt
+evaluation/orca/tmp-0.3100.txt
+evaluation/orca/tmp-0.3144.txt
+evaluation/orca/tmp-0.2896.txt
+evaluation/orca/tmp-0.2893.txt
+evaluation/orca/tmp-0.2860.txt
+evaluation/orca/tmp-0.2836.txt
+evaluation/orca/tmp-0.2835.txt
+evaluation/orca/tmp-0.3356.txt
+evaluation/orca/tmp-0.3370.txt
+evaluation/orca/tmp-0.3442.txt
+evaluation/orca/tmp-0.3379.txt
+evaluation/orca/tmp-0.3722.txt
+evaluation/orca/tmp-0.3693.txt
+evaluation/orca/tmp-0.3662.txt
+evaluation/orca/tmp-0.3661.txt
+evaluation/orca/tmp-0.3633.txt
+evaluation/orca/tmp-0.3631.txt
+evaluation/orca/tmp-0.3616.txt
+evaluation/orca/tmp-0.3612.txt
+evaluation/orca/tmp-0.3597.txt
+evaluation/orca/tmp-0.3584.txt
+evaluation/orca/tmp-0.3581.txt
+evaluation/orca/tmp-0.3563.txt
+evaluation/orca/tmp-0.3548.txt
+evaluation/orca/tmp-0.3546.txt
+evaluation/orca/tmp-0.3497.txt
+evaluation/orca/tmp-0.3483.txt
+evaluation/orca/tmp-0.3480.txt
+evaluation/orca/tmp-0.3476.txt
+evaluation/orca/tmp-0.3451.txt
+evaluation/orca/tmp-0.3444.txt
+evaluation/orca/tmp-0.4347.txt
+evaluation/orca/tmp-0.4332.txt
+evaluation/orca/tmp-0.4314.txt
+evaluation/orca/tmp-0.4302.txt
+evaluation/orca/tmp-0.4289.txt
+evaluation/orca/tmp-0.4274.txt
+evaluation/orca/tmp-0.4272.txt
+evaluation/orca/tmp-0.4232.txt
+evaluation/orca/tmp-0.4188.txt
+evaluation/orca/tmp-0.4141.txt
+evaluation/orca/tmp-0.4129.txt
+evaluation/orca/tmp-0.4090.txt
+evaluation/orca/tmp-0.4115.txt
+evaluation/orca/tmp-0.4046.txt
+evaluation/orca/tmp-0.4035.txt
+evaluation/orca/tmp-0.4016.txt
+evaluation/orca/tmp-0.4005.txt
+evaluation/orca/tmp-0.3846.txt
+evaluation/orca/tmp-0.3882.txt
+evaluation/orca/tmp-0.3843.txt
+evaluation/orca/tmp-0.3842.txt
+evaluation/orca/tmp-0.3816.txt
+evaluation/orca/tmp-0.3748.txt
+evaluation/orca/tmp-0.3742.txt
